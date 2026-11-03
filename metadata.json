@@ -1,0 +1,6 @@
+{
+  "name": "The 5-Dimension Community Audit Tool",
+  "description": "Audit the health of your online community across Structure, Activity, Culture, Content, and Governance by SOŪL (魂).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

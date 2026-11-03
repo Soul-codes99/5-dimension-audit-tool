@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-canvas: #0c0e12;
+    --color-surface-card: #12161d;
+    --color-surface-subtle: #181d26;
+    --color-border-hairline: #222936;
+    --color-border-active: #2e3849;
+    --color-brand-accent: #00ff87;
+    --color-brand-purple: #a855f7;
+    --color-text-primary: #f8fafc;
+    --color-text-secondary: #94a3b8;
+    --color-text-muted: #64748b;
+  }
+
+  body {
+    background-color: var(--color-bg-canvas);
+    color: var(--color-text-primary);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Accessible focus ring styling */
+:focus-visible {
+  outline: 2px solid #00ff87;
+  outline-offset: 2px;
+}
